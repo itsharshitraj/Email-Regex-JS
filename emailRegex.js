@@ -1,10 +1,9 @@
-const emailRegex = /^abc@bridgelabz$/;
+const emailRegex = /^abc@bridgelabz\.co$/;
 
 // Test cases
 const emails = [
-    "abc@bridgelabz",      // Valid
-    "abc@xyz",              // Invalid (must be @bridgelabz)
-    "abc.xyz@bridgelabz",   // Invalid
+    "abc@bridgelabz.co",      // Valid
+    "abc.xyz@bridgelabz.co",   // Invalid
 ];
 
 emails.forEach(email => {
